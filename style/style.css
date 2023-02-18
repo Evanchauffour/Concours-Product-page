@@ -872,6 +872,10 @@ section:nth-child(3) .arrow-slider svg{
         transform: 0;
     }
 
+    header nav.active {
+        left: 0;
+    }
+
     .view-mode {
         position: absolute;
         left: 50%;
