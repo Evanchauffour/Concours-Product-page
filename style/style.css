@@ -873,7 +873,7 @@ section:nth-child(3) .arrow-slider svg{
     }
 
     header nav.active {
-        left: 0;
+        left: -10px;
     }
 
     .view-mode {
