@@ -858,3 +858,50 @@ section:nth-child(3) .arrow-slider svg{
         cursor: pointer;
     }
 }
+
+@media screen and (max-width:500px) {
+    body{
+        margin: 0 10px;
+    }
+
+    .burger{
+        cursor: pointer;
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        transform: 0;
+    }
+
+    .view-mode {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        top: 30px;
+    }
+
+    .first-section h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-top: 5px;
+    }
+
+    .first-section p {
+        margin-bottom: 30px;
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .add_panier-like {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .add_panier-like svg {
+        width: 30px;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+}
